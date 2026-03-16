@@ -3,15 +3,17 @@
 using namespace std;
 
 int main() {
-    int x;
-    cin >> x;
 
+    int x;          // number of matches won
+    cin >> x;       // input the number of wins
+
+    // check if wins are enough to qualify
     if (x >= 12) {
-        cout << "Yes";
+        cout << "Yes";   // team qualifies
     } 
     else {
-        cout << "No";
+        cout << "No";    // team does not qualify
     }
 
-    return 0;
+    return 0;   // program ends
 }
