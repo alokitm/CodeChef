@@ -15,5 +15,5 @@ int main() {
         cout << "No";    // team does not qualify
     }
 
-    return 0;   // program ends
+    return 0;   // program end
 }
