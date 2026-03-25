@@ -10,7 +10,7 @@ int main() {
 	// Y = number of days spent on other activities
 	int X, Y;
 
-	// Input values
+	// Input values of X & Y
 	cin >> X;
 	cin >> Y;
 
