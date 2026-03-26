@@ -1,21 +1,27 @@
+// Problem Link:
 // https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/LUDO
+
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// your code goes here
-	int T ; 
-	cin >> T ;
-	while(T--){
-	    int X ;
-	    cin >> X ;
-	    if(X==6){
+	// T = number of test cases
+	int T; 
+	cin >> T;
+
+	while (T--) {
+	    // X = number rolled on dice
+	    int X;
+	    cin >> X;
+
+	    // If dice shows 6 → player can move
+	    if (X == 6) {
 	        cout << "Yes" << endl;
 	    }
-	    else{
-	        cout << "No" << endl ;
+	    else {
+	        cout << "No" << endl;
 	    }     
 	}
-	return 0 ;
 
+	return 0;
 }
