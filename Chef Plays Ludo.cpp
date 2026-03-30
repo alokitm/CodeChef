@@ -10,7 +10,7 @@ int main() {
 	cin >> T;
 
 	while (T--) {
-	    // X = number rolled on dice
+	    // X = number rolled on dice in game 
 	    int X;
 	    cin >> X;
 
