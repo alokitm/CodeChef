@@ -1,0 +1,14 @@
+// https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/KITCHENTIME
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int t, x, y;
+    cin >> t;
+    
+    while (t--) {
+        cin >> x >> y;
+        cout << y - x << endl;
+    }
+
+}
