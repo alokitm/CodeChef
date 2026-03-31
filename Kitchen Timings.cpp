@@ -18,6 +18,5 @@ int main() {
 	    // Time spent in kitchen
 	    cout << y - x << endl;
 	}
-
-	return 0;
+return 0;
 }
