@@ -19,7 +19,6 @@ int main() {
 	        cout << "0" << endl;
 	    }
 	    else {
-	        // Remaining space
 	        cout << N - M << endl;
 	    }
 	}
