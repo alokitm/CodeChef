@@ -1,23 +1,28 @@
+// Problem Link:
 // https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/IPLTRSH
+
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// your code goes here
-	int T, N,M;
+	// T = number of test cases
+	int T, N, M;
 	cin >> T;
-	while(T--){
-	    cin  >> N >> M;
-	    if(N-M <= 0){
-	        cout << "0" << endl; }
-	    else{
-	        cout << N-M << endl;
-	        
+
+	while (T--) {
+	    // N = total capacity
+	    // M = current usage
+	    cin >> N >> M;
+
+	    // If usage exceeds or equals capacity → no space left
+	    if (N - M <= 0) {
+	        cout << "0" << endl;
 	    }
-	    	
+	    else {
+	        // Remaining space
+	        cout << N - M << endl;
+	    }
 	}
+
 	return 0;
-    
 }
-	    	
-	   
