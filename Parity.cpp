@@ -1,4 +1,4 @@
-// Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/PAR2
+// CodeChef Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/PAR2
 
 #include <bits/stdc++.h>
 using namespace std;
