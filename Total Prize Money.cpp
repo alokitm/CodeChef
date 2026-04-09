@@ -17,6 +17,5 @@ int main() {
 	    // Total prize pool
 	    cout << 10 * X + 90 * Y << endl;
 	}
-
-	return 0;
+ return 0;
 }
