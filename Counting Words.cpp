@@ -9,7 +9,7 @@ int main() {
 	cin >> T;
 
 	while (T--) {
-	    // M = number of rows
+	    // M = number of rows given
 	    // N = number of columns
 	    int M, N;
 	    cin >> M >> N;
