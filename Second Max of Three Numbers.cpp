@@ -1,4 +1,4 @@
-// https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/SNDMAX
+// Codechef Problem Link : https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/SNDMAX
 #include <bits/stdc++.h>
 using namespace std;
 
