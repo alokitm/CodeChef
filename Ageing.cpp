@@ -9,7 +9,7 @@ int main() {
 	cin >> T;
 
 	while (T--) {
-	    // X = speed of Tom, Y = speed of Jerry
+	    // X = speed of Tom & Y = speed of Jerry
 	    int X, Y;
 	    cin >> X >> Y;
 
