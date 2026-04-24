@@ -1,4 +1,4 @@
-// Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/WAITTIME
+// Codechef Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/WAITTIME
 
 #include <bits/stdc++.h>
 using namespace std;
