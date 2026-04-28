@@ -1,28 +1,30 @@
-// https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/AUCTION
+// Problem Link:
+// https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/RAINFALL1
+
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// your code goes here
-	int  t ;
+	// t = number of test cases
+	int t;
 	cin >> t;
-	while(t--){
-	    int a,b,c ;
-	    cin >> a >> b >> c ;
-	    
-	    int bid = max({a,b,c}) ;
-	    // int bid = max(a, max(b,c)) ;
-	    
-	    if(bid == a){
-	        cout << "alice" << endl ;
+
+	while (t--) {
+	    // x = rainfall amount
+	    int x;
+	    cin >> x;
+
+	    // Categorize rainfall
+	    if (x < 3) {
+	        cout << "light" << endl;
 	    }
-	    else if(bid == b){
-	        cout << "bob" << endl ;
+	    else if (x >= 3 && x < 7) {
+	        cout << "moderate" << endl;
 	    }
-	    else{
-	        cout << "charlie" << endl ;
+	    else {
+	        cout << "heavy" << endl;
 	    }
 	}
-	return 0 ;
 
+	return 0;
 }
