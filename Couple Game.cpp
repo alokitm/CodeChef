@@ -1,5 +1,4 @@
-// Problem: COUGAME (CodeChef)
-// Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/COUGAME
+// Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/COUGAME
 #include <bits/stdc++.h>
 using namespace std;
 
