@@ -2,7 +2,6 @@
 
 #include <bits/stdc++.h>
 using namespace std;
-
 int main() {
     // x = air quality index
     int x;
