@@ -1,21 +1,27 @@
+// Problem Link:
 // https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/FEVER
+
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// your code goes here
+	// t = number of test cases
 	int t;
 	cin >> t;
-	while(t--){
+
+	while (t--) {
+	    // x = body temperature
 	    int x;
 	    cin >> x;
-	    if(x>98){
+
+	    // Check if temperature indicates fever
+	    if (x > 98) {
 	        cout << "yes" << endl;
 	    }
-	    else{
+	    else {
 	        cout << "no" << endl;
 	    }
 	}
-	return 0 ;
 
+	return 0;
 }
