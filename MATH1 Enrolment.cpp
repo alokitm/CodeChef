@@ -1,7 +1,7 @@
 /*
     Problem: Mario and the Broken String (M1ENROL)
     Platform: CodeChef
-    Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/M1ENROL
+    Codechef Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/M1ENROL
 
     Approach:
     - Read number of test cases.
