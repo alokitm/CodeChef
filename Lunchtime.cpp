@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-	// t = number of test cases
+	// t = number of test cases given
 	int t;
 	cin >> t;
 
