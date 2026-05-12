@@ -10,7 +10,7 @@ int main() {
     // Input
     cin >> X;
 
-    // Check if status code is 404
+    // Check if status code is 404 in the program
     if (X == 404)
         cout << "NOT FOUND";
     else
