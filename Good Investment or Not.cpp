@@ -1,4 +1,4 @@
-// Codechef Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/LTIME
+// Codechef Problem Link of the question: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/LTIME
 
 #include <bits/stdc++.h>
 using namespace std;
