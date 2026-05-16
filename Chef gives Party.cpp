@@ -1,5 +1,4 @@
-// Problem Link:
-// https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/PARTY2
+// Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/PARTY2
 
 #include <bits/stdc++.h>
 using namespace std;
