@@ -4,12 +4,12 @@
 using namespace std;
 
 int main() {
-	// T = number of test cases
+	// T = number of test cases given
 	int T;
 	cin >> T;
 
 	while (T--) {
-	    // X = number of hours studied
+	    // X = number of hours studied by student 
 	    int X;
 	    cin >> X;
 
