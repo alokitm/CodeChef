@@ -7,7 +7,7 @@ int main() {
     int x;
     cin >> x;
 
-    // Check if air quality is acceptable
+    // Check if air quality is acceptable by condition
     if (x < 100) {
         cout << "YES" << endl;
     }
