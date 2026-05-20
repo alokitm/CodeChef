@@ -1,20 +1,28 @@
+// Problem Link:
 // https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/CARTRIP
+
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// your code goes here
-	int t ;
+	// t = number of test cases
+	int t;
 	cin >> t;
-	while(t--){
+
+	while (t--) {
+	    // x = distance travelled
 	    int x;
 	    cin >> x;
-	    if(x<=300){
+
+	    // Minimum charge is 3000 for up to 300 km
+	    if (x <= 300) {
 	        cout << "3000" << endl;
 	    }
-	    else{
-	        cout << x*10 << endl ;
+	    else {
+	        // Charge = 10 per km
+	        cout << x * 10 << endl;
 	    }
 	}
-return 0 ;
+
+	return 0;
 }
