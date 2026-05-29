@@ -1,5 +1,4 @@
-// Problem Link:
-// https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/CS2023_GIFT
+// Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/CS2023_GIFT
 
 #include <bits/stdc++.h>
 using namespace std;
