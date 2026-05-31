@@ -1,4 +1,4 @@
-// codechef link : https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/DOREWARD
+// Codechef Problem link : https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/DOREWARD
 #include <bits/stdc++.h>
 using namespace std;
 
