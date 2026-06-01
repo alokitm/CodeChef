@@ -1,4 +1,4 @@
-// Problem Link : https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/CABS
+// Codechef Problem Link : https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/CABS
 #include <bits/stdc++.h>
 using namespace std;
 
