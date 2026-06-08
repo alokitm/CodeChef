@@ -24,6 +24,5 @@ int main() {
         // Final income = increased salary + additional income
         cout << x * 0.1 + y << endl;
     }
-
     return 0;
 }
