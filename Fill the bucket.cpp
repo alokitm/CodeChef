@@ -23,6 +23,5 @@ int main() {
         // Remaining amount after spending
         cout << k - x << endl;
     }
-
-    return 0;
+return 0;
 }
