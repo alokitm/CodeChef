@@ -1,7 +1,6 @@
 // Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/AUDIBLE
 
-// Time Complexity: O(T)
-// Space Complexity: O(1)
+// Time Complexity: O(T) & Space Complexity: O(1)
 
 #include <bits/stdc++.h>
 using namespace std;
