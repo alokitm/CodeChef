@@ -1,23 +1,28 @@
-// Codechef Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/BIRYANI
+// Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/BIRYANI
+
+// Time Complexity: O(T)
+// Space Complexity: O(1)
 
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// T = number of test cases
-	int T;
-	cin >> T;
 
-	while (T--) {
-	    // X = number of plates
-	    // Y = cost per plate
-	    int X, Y;
-	    cin >> X;
-	    cin >> Y;
+    // T = number of test cases
+    int T;
+    cin >> T;
 
-	    // Total cost
-	    cout << X * Y << endl;
-	}
+    // Process each test case
+    while (T--) {
 
-	return 0;
+        // X = number of biryani plates
+        // Y = cost per plate
+        int X, Y;
+        cin >> X >> Y;
+
+        // Total cost = number of plates × cost per plate
+        cout << X * Y << endl;
+    }
+
+    return 0;
 }
