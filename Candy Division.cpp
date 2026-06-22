@@ -1,4 +1,4 @@
-// Problem Link: Not Provided
+// Codechef Problem Link: Not Provided
 
 // Time Complexity: O(T)
 // Space Complexity: O(1)
