@@ -1,27 +1,36 @@
-// Codechef Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/CARTRIP
+// Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/CARTRIP
+
+// Time Complexity: O(T)
+// Space Complexity: O(1)
 
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// t = number of test cases
-	int t;
-	cin >> t;
 
-	while (t--) {
-	    // x = distance travelled
-	    int x;
-	    cin >> x;
+    // T = number of test cases
+    int T;
+    cin >> T;
 
-	    // Minimum charge is 3000 for up to 300 km
-	    if (x <= 300) {
-	        cout << "3000" << endl;
-	    }
-	    else {
-	        // Charge = 10 per km
-	        cout << x * 10 << endl;
-	    }
-	}
+    // Process each test case
+    while (T--) {
 
-	return 0;
+        // X = distance travelled in kilometers
+        int X;
+        cin >> X;
+
+        // Minimum charge is 3000 for distances up to 300 km
+        if (X <= 300) {
+
+            cout << 3000 << endl;
+        }
+        else {
+
+            // For distances greater than 300 km,
+            // charge is 10 units per kilometer
+            cout << X * 10 << endl;
+        }
+    }
+
+    return 0;
 }
