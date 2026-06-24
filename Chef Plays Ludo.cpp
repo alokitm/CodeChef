@@ -1,27 +1,37 @@
 // Problem Link:
 // https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/LUDO
 
+// Time Complexity: O(T)
+// Space Complexity: O(1)
+
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// T = number of test cases
-	int T; 
-	cin >> T;
 
-	while (T--) {
-	    // X = number rolled on dice in game 
-	    int X;
-	    cin >> X;
+    // T = number of test cases
+    int T;
+    cin >> T;
 
-	    // If dice shows 6 → player can move
-	    if (X == 6) {
-	        cout << "Yes" << endl;
-	    }
-	    else {
-	        cout << "No" << endl;
-	    }     
-	}
+    // Process each test case
+    while (T--) {
 
-	return 0;
+        // X = number obtained on the dice
+        int X;
+        cin >> X;
+
+        // A player can move only if the dice shows 6
+        if (X == 6) {
+
+            // Move is allowed
+            cout << "Yes" << endl;
+        }
+        else {
+
+            // Move is not allowed
+            cout << "No" << endl;
+        }
+    }
+
+    return 0;
 }
