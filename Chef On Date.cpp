@@ -1,27 +1,37 @@
-// Problem Link:
-// https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/CHEFONDATE
+// Codechef Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/CHEFONDATE
+
+// Time Complexity: O(T)
+// Space Complexity: O(1)
 
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// T = number of test cases
-	int T;
-	cin >> T;
 
-	while (T--) {
-	    // X = amount Chef has, Y = required amount
-	    int X, Y;
-	    cin >> X >> Y;
+    // T = number of test cases
+    int T;
+    cin >> T;
 
-	    // Check if Chef can afford the date
-	    if (X >= Y) {
-	        cout << "Yes" << endl;
-	    }
-	    else {
-	        cout << "No" << endl;
-	    }
-	}
+    // Process each test case
+    while (T--) {
 
-	return 0;
+        // X = amount of money Chef has
+        // Y = amount required for the date
+        int X, Y;
+        cin >> X >> Y;
+
+        // Check whether Chef has enough money
+        if (X >= Y) {
+
+            // Chef can afford the date
+            cout << "Yes" << endl;
+        }
+        else {
+
+            // Chef cannot afford the date
+            cout << "No" << endl;
+        }
+    }
+
+    return 0;
 }
