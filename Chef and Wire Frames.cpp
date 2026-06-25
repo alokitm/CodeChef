@@ -1,23 +1,30 @@
-// Codechef Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/CWIREFRAME
+// Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/CWIREFRAME
+
+// Time Complexity: O(T)
+// Space Complexity: O(1)
 
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// t = number of test cases
-	int t;
-	cin >> t;
 
-	while (t--) {
-	    // n = length
-	    // m = breadth
-	    // x = cost per unit
-	    int n, m, x;
-	    cin >> n >> m >> x;
+    // T = number of test cases
+    int T;
+    cin >> T;
 
-	    // Total wireframe cost
-	    cout << 2 * x * (n + m) << endl;
-	}
+    // Process each test case
+    while (T--) {
 
-	return 0;
+        // N = length of the rectangle
+        // M = breadth of the rectangle
+        // X = cost per unit length of wire
+        int N, M, X;
+        cin >> N >> M >> X;
+
+        // Perimeter of rectangle = 2 × (N + M)
+        // Total wireframe cost = perimeter × cost per unit
+        cout << 2 * X * (N + M) << endl;
+    }
+
+    return 0;
 }
