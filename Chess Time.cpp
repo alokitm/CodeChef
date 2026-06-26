@@ -1,22 +1,30 @@
-// Codechef Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/CHESSTIME
+// Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/CHESSTIME
+
+// Time Complexity: O(T)
+// Space Complexity: O(1)
 
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// t = number of test cases
-	int t;
-	cin >> t;
 
-	while (t--) {
-	    // n = number of hours
-	    int n;
-	    cin >> n;
+    // T = number of test cases
+    int T;
+    cin >> T;
 
-	    // Each game takes 20 minutes → total minutes = n * 60
-	    // Number of games = total minutes / 20
-	    cout << (n * 60) / 20 << endl;
-	}
+    // Process each test case
+    while (T--) {
 
-	return 0;
+        // N = total number of hours available
+        int N;
+        cin >> N;
+
+        // Convert hours to minutes
+        // Total minutes = N × 60
+        // Each chess game takes 20 minutes
+        // Number of games = Total minutes / 20
+        cout << (N * 60) / 20 << endl;
+    }
+
+    return 0;
 }
