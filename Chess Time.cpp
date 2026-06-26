@@ -1,4 +1,4 @@
-// Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/CHESSTIME
+// Codechef Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/CHESSTIME
 
 // Time Complexity: O(T)
 // Space Complexity: O(1)
