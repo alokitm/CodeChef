@@ -1,22 +1,23 @@
-// Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/CNTWRD
+// Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/CLEARDAY
+
+// Time Complexity: O(1)
+// Space Complexity: O(1)
 
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// T = number of test cases given
-	int T;
-	cin >> T;
 
-	while (T--) {
-	    // M = number of rows given
-	    // N = number of columns
-	    int M, N;
-	    cin >> M >> N;
+    // X = number of days Chef worked
+    // Y = number of days spent on other activities
+    int X, Y;
 
-	    // Total number of words
-	    cout << M * N << endl;
-	}
+    // Input values
+    cin >> X >> Y;
 
-	return 0;
+    // Total days in a week = 7
+    // Free days = 7 - (working days + other activity days)
+    cout << 7 - (X + Y);
+
+    return 0;
 }
