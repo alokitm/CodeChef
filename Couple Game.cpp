@@ -1,19 +1,27 @@
-// Codechef Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/COUGAME
+// Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/COUGAME
+
+// Time Complexity: O(T)
+// Space Complexity: O(1)
+
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-    int t; // number of test cases
-    cin >> t;
 
-    while (t--) {
-        int b, g;
+    // T = number of test cases
+    int T;
+    cin >> T;
 
-        // Input: number of girls (g) and boys (b)
-        cin >> g >> b;
+    // Process each test case
+    while (T--) {
 
-        // Output: difference between boys and girls
-        cout << (b - g) << endl;
+        // G = number of girls
+        // B = number of boys
+        int G, B;
+        cin >> G >> B;
+
+        // Print the difference between boys and girls
+        cout << (B - G) << endl;
     }
 
     return 0;
