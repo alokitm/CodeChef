@@ -1,25 +1,41 @@
-// Codechef Problem link : https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/DOREWARD
+// Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/DOREWARD
+
+// Time Complexity: O(T)
+// Space Complexity: O(1)
+
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// your code goes here
-	int  t;
-	cin >> t;
-	while(t--){
-		
-	    int x;
-	    cin >> x ;
-	    if(x<=3){
-	        cout << "bronze" << endl ;
-	    }
-	    else if(x>3 && x<=6){
-	        cout << "silver" << endl ;
-	    }
-	    else{
-	        cout << "gold" << endl ;
-	    }
-	}
-return 0;
-}
 
+    // T = number of test cases
+    int T;
+    cin >> T;
+
+    // Process each test case
+    while (T--) {
+
+        // X = rank obtained by the participant
+        int X;
+        cin >> X;
+
+        // Determine the reward based on rank
+        if (X <= 3) {
+
+            // Top 3 ranks receive Bronze reward
+            cout << "bronze" << endl;
+        }
+        else if (X <= 6) {
+
+            // Ranks 4 to 6 receive Silver reward
+            cout << "silver" << endl;
+        }
+        else {
+
+            // All remaining ranks receive Gold reward
+            cout << "gold" << endl;
+        }
+    }
+
+    return 0;
+}
