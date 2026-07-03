@@ -1,8 +1,19 @@
-//https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/DOUBLERENT
-#includeusing namespace std;
-int main) f
-1/ your code goes here int X;
-cin >>X；
-cout <<2*x；
-  return 0;
+// Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/DOUBLERENT
+
+// Time Complexity: O(1)
+// Space Complexity: O(1)
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+    // X = current rent
+    int X;
+    cin >> X;
+
+    // Double the rent amount
+    cout << 2 * X;
+
+    return 0;
 }
