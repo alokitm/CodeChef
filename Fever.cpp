@@ -1,26 +1,36 @@
 // Codechef Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/FEVER
 
+// Time Complexity: O(T)
+// Space Complexity: O(1)
+
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// t = number of test cases
-	int t;
-	cin >> t;
 
-	while (t--) {
-	    // x = body temperature
-	    int x;
-	    cin >> x;
+    // T = number of test cases
+    int T;
+    cin >> T;
 
-	    // Check if temperature indicates fever
-	    if (x > 98) {
-	        cout << "yes" << endl;
-	    }
-	    else {
-	        cout << "no" << endl;
-	    }
-	}
+    // Process each test case
+    while (T--) {
 
-	return 0;
+        // X = body temperature
+        int X;
+        cin >> X;
+
+        // Check whether the temperature indicates fever
+        if (X > 98) {
+
+            // Temperature is above normal
+            cout << "yes" << endl;
+        }
+        else {
+
+            // Temperature is normal
+            cout << "no" << endl;
+        }
+    }
+
+    return 0;
 }
