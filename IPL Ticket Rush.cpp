@@ -1,27 +1,37 @@
-// Problem Link:
-// https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/IPLTRSH
+// Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/IPLTRSH
+
+// Time Complexity: O(T)
+// Space Complexity: O(1)
 
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// T = number of test cases
-	int T, N, M;
-	cin >> T;
 
-	while (T--) {
-	    // N = total capacity
-	    // M = current usage
-	    cin >> N >> M;
+    // T = number of test cases
+    int T;
+    cin >> T;
 
-	    // If usage exceeds or equals capacity → no space left
-	    if (N - M <= 0) {
-	        cout << "0" << endl;
-	    }
-	    else {
-	        cout << N - M << endl;
-	    }
-	}
+    // Process each test case
+    while (T--) {
 
-	return 0;
+        // N = total storage capacity
+        // M = storage already used
+        int N, M;
+        cin >> N >> M;
+
+        // Calculate remaining storage space
+        if (N - M <= 0) {
+
+            // No storage space left
+            cout << 0 << endl;
+        }
+        else {
+
+            // Print available storage space
+            cout << N - M << endl;
+        }
+    }
+
+    return 0;
 }
