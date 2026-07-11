@@ -1,22 +1,32 @@
-// Codechef Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/INTRDSGN
+// Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/INTRDSGN
+
+// Time Complexity: O(T)
+// Space Complexity: O(1)
 
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// t = number of test cases
-	int t;
-	cin >> t;
 
-	while (t--) {
-	    // x1, y1 = dimensions/design values of first option
-	    // x2, y2 = dimensions/design values of second option
-	    int x1, y1, x2, y2;
-	    cin >> x1 >> y1 >> x2 >> y2;
+    // T = number of test cases
+    int T;
+    cin >> T;
 
-	    // Output the minimum total value
-	    cout << min(x1 + y1, x2 + y2) << endl;
-	}
+    // Process each test case
+    while (T--) {
 
-	return 0;
+        // X1, Y1 = values for the first design
+        // X2, Y2 = values for the second design
+        int X1, Y1, X2, Y2;
+        cin >> X1 >> Y1 >> X2 >> Y2;
+
+        // Calculate the total value of both designs
+        int firstDesign = X1 + Y1;
+        int secondDesign = X2 + Y2;
+
+        // Print the minimum total value
+        cout << min(firstDesign, secondDesign) << endl;
+    }
+
+    return 0;
 }
