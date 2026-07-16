@@ -1,21 +1,29 @@
-// Codechef Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/MANAPTS
+// Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/MANAPTS
+
+// Time Complexity: O(T)
+// Space Complexity: O(1)
 
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// T = number of test cases
-	int T;
-	cin >> T;
 
-	while (T--) {
-	    // X = cost per apartment, Y = total budget
-	    int X, Y;
-	    cin >> X >> Y;
+    // T = number of test cases
+    int T;
+    cin >> T;
 
-	    // Maximum number of apartments that can be bought
-	    cout << Y / X << endl;
-	}
+    // Process each test case
+    while (T--) {
 
-	return 0;
+        // X = cost of one apartment
+        // Y = total budget available
+        int X, Y;
+        cin >> X >> Y;
+
+        // Maximum apartments that can be purchased
+        // = total budget / cost per apartment
+        cout << Y / X << endl;
+    }
+
+    return 0;
 }
