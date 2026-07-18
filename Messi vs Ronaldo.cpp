@@ -1,29 +1,41 @@
-// Codechef Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/MVR
+// Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/MVR
+
+// Time Complexity: O(1)
+// Space Complexity: O(1)
 
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// A, B = goals and assists of Messi
-	// X, Y = goals and assists of Ronaldo
-	int A, B, X, Y;
-	cin >> A >> B >> X >> Y;
 
-	// Calculate scores
-	int Messi, Ronaldo;
-	Messi = 2 * A + B;
-	Ronaldo = 2 * X + Y;
+    // A = goals scored by Messi
+    // B = assists made by Messi
+    // X = goals scored by Ronaldo
+    // Y = assists made by Ronaldo
+    int A, B, X, Y;
+    cin >> A >> B >> X >> Y;
 
-	// Compare performances
-	if (Messi > Ronaldo) {
-	    cout << "Messi" << endl;
-	}
-	else if (Messi == Ronaldo) {
-	    cout << "Equal" << endl;
-	}
-	else {
-	    cout << "Ronaldo" << endl;
-	}
+    // Performance score:
+    // Goals are worth 2 points and assists are worth 1 point
+    int Messi = 2 * A + B;
+    int Ronaldo = 2 * X + Y;
 
-	return 0;
+    // Compare the performance scores
+    if (Messi > Ronaldo) {
+
+        // Messi has the higher score
+        cout << "Messi" << endl;
+    }
+    else if (Messi == Ronaldo) {
+
+        // Both players have the same score
+        cout << "Equal" << endl;
+    }
+    else {
+
+        // Ronaldo has the higher score
+        cout << "Ronaldo" << endl;
+    }
+
+    return 0;
 }
