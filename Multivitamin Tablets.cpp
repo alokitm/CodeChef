@@ -1,27 +1,38 @@
-// Codechef Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/TABLETS
+// Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/TABLETS
+
+// Time Complexity: O(T)
+// Space Complexity: O(1)
 
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// t = number of test cases
-	int t;
-	cin >> t;
 
-	while (t--) {
-	    // x = required tablets
-	    // y = available tablets
-	    int x, y;
-	    cin >> x >> y;
+    // T = number of test cases
+    int T;
+    cin >> T;
 
-	    // Check if available tablets are at least 3 times required
-	    if (y >= 3 * x) {
-	        cout << "yes" << endl;
-	    }
-	    else {
-	        cout << "no" << endl;
-	    }
-	}
+    // Process each test case
+    while (T--) {
 
-	return 0;
+        // X = required number of tablets
+        // Y = available number of tablets
+        int X, Y;
+        cin >> X >> Y;
+
+        // Check if the available tablets are at least
+        // three times the required tablets
+        if (Y >= 3 * X) {
+
+            // Sufficient tablets are available
+            cout << "yes" << endl;
+        }
+        else {
+
+            // Tablets are not sufficient
+            cout << "no" << endl;
+        }
+    }
+
+    return 0;
 }
