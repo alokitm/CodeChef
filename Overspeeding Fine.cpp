@@ -1,29 +1,41 @@
-// Codechef Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/RAINFALL1
+// Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/RAINFALL1
+
+// Time Complexity: O(T)
+// Space Complexity: O(1)
 
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// t = number of test cases
-	int t;
-	cin >> t;
 
-	while (t--) {
-	    // x = rainfall amount
-	    int x;
-	    cin >> x;
+    // T = number of test cases
+    int T;
+    cin >> T;
 
-	    // Categorize rainfall
-	    if (x < 3) {
-	        cout << "light" << endl;
-	    }
-	    else if (x >= 3 && x < 7) {
-	        cout << "moderate" << endl;
-	    }
-	    else {
-	        cout << "heavy" << endl;
-	    }
-	}
+    // Process each test case
+    while (T--) {
 
-	return 0;
+        // X = rainfall amount
+        int X;
+        cin >> X;
+
+        // Classify the rainfall based on its intensity
+        if (X < 3) {
+
+            // Rainfall is light
+            cout << "light" << endl;
+        }
+        else if (X < 7) {
+
+            // Rainfall is moderate
+            cout << "moderate" << endl;
+        }
+        else {
+
+            // Rainfall is heavy
+            cout << "heavy" << endl;
+        }
+    }
+
+    return 0;
 }
