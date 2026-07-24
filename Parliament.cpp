@@ -1,29 +1,34 @@
-// Codechef Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/PARLIAMENT
+// Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/PARLIAMENT
 
-// Time Complexity: O(t) & Space Complexity: O(1)
+// Time Complexity: O(T)
+// Space Complexity: O(1)
 
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
 
-    // Variable to store number of test cases
-    int t;
-    cin >> t;
+    // T = number of test cases
+    int T;
+    cin >> T;
 
     // Process each test case
-    while(t--) {
+    while (T--) {
 
-        // n = total seats in parliament
-        // x = seats won by the party
-        int n, x;
-        cin >> n >> x;
+        // N = total number of seats in parliament
+        // X = seats won by the party
+        int N, X;
+        cin >> N >> X;
 
-        // A party forms majority if it has at least half the seats
-        if(2 * x >= n) {
+        // Check whether the party has at least half of the total seats
+        if (2 * X >= N) {
+
+            // The party can form the government
             cout << "yes" << endl;
         }
         else {
+
+            // The party cannot form the government
             cout << "no" << endl;
         }
     }
