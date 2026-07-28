@@ -1,27 +1,38 @@
-// Codechef Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/REACH_HOME
+// CODECHEF Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/REACH_HOME
+
+// Time Complexity: O(T)
+// Space Complexity: O(1)
 
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// t = number of test cases
-	int t;
-	cin >> t;
 
-	while (t--) {
-	    // x = speed per unit time
-	    // y = required distance
-	    int x, y;
-	    cin >> x >> y;
+    // T = number of test cases
+    int T;
+    cin >> T;
 
-	    // Check if Chef can reach home within 5 units of time
-	    if (5 * x >= y) {
-	        cout << "yes" << endl;
-	    }
-	    else {
-	        cout << "no" << endl;
-	    }
-	}
+    // Process each test case
+    while (T--) {
 
-	return 0;
+        // X = speed per unit time
+        // Y = distance to Chef's home
+        int X, Y;
+        cin >> X >> Y;
+
+        // Check whether Chef can cover the required distance
+        // within 5 units of time
+        if (5 * X >= Y) {
+
+            // Chef can reach home
+            cout << "yes" << endl;
+        }
+        else {
+
+            // Chef cannot reach home
+            cout << "no" << endl;
+        }
+    }
+
+    return 0;
 }
