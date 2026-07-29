@@ -1,4 +1,4 @@
-// Problem Link:
+// CODECHEF Problem Link:
 // https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/REACHTARGET
 
 #include <bits/stdc++.h>
