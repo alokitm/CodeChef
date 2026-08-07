@@ -1,26 +1,37 @@
-// Codechef Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/SLEEP
+// CODECHEF Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/SLEEP
+
+// Time Complexity: O(T)
+// Space Complexity: O(1)
 
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// t = number of test cases
-	int t;
-	cin >> t;
 
-	while (t--) {
-	    // x = number of sleeping hours
-	    int x;
-	    cin >> x;
+    // T = number of test cases
+    int T;
+    cin >> T;
 
-	    // Check if sleep is less than recommended
-	    if (x < 7) {
-	        cout << "yes" << endl;
-	    }
-	    else {
-	        cout << "no" << endl;
-	    }
-	}
+    // Process each test case
+    while (T--) {
 
-	return 0;
+        // X = number of sleeping hours
+        int X;
+        cin >> X;
+
+        // Check whether the sleeping hours
+        // are less than the recommended 7 hours
+        if (X < 7) {
+
+            // Sleep is insufficient
+            cout << "yes" << endl;
+        }
+        else {
+
+            // Sleep is sufficient
+            cout << "no" << endl;
+        }
+    }
+
+    return 0;
 }
