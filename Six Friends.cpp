@@ -1,22 +1,31 @@
-// Codechef Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/SIXFRIENDS
+// Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/SIXFRIENDS
+
+// Time Complexity: O(T)
+// Space Complexity: O(1)
 
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// t = number of test cases
-	int t;
-	cin >> t;
 
-	while (t--) {
-	    // x = cost option 1
-	    // y = cost option 2
-	    int x, y;
-	    cin >> x >> y;
+    // T = number of test cases
+    int T;
+    cin >> T;
 
-	    // Choose the minimum cost option
-	    cout << min(3 * x, 2 * y) << endl;
-	}
+    // Process each test case
+    while (T--) {
 
-	return 0;
+        // X = cost of the first option
+        // Y = cost of the second option
+        int X, Y;
+        cin >> X >> Y;
+
+        // Compare the total cost of both options:
+        // Option 1 = 3 × X
+        // Option 2 = 2 × Y
+        // Print the minimum cost
+        cout << min(3 * X, 2 * Y) << endl;
+    }
+
+    return 0;
 }
