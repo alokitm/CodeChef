@@ -1,4 +1,4 @@
-// Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/KITCHENSPICE
+// CODECHEF Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/KITCHENSPICE
 
 // Time Complexity: O(T)
 // Space Complexity: O(1)
