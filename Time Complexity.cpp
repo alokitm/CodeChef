@@ -1,27 +1,38 @@
-// Codechef Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/COMPLEXITY
+// Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/COMPLEXITY
+
+// Time Complexity: O(T)
+// Space Complexity: O(1)
 
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// t = number of test cases
-	int t;
-	cin >> t;
 
-	while (t--) {
-	    // x = old complexity
-	    // y = new complexity
-	    int x, y;
-	    cin >> x >> y;
+    // T = number of test cases
+    int T;
+    cin >> T;
 
-	    // Check if old complexity is greater
-	    if (x > y) {
-	        cout << "yes" << endl;
-	    }
-	    else {
-	        cout << "no" << endl;
-	    }
-	}
+    // Process each test case
+    while (T--) {
 
-	return 0;
+        // X = old complexity
+        // Y = new complexity
+        int X, Y;
+        cin >> X >> Y;
+
+        // Check whether the old complexity is greater
+        // than the new complexity
+        if (X > Y) {
+
+            // Complexity has improved
+            cout << "yes" << endl;
+        }
+        else {
+
+            // Complexity has not improved
+            cout << "no" << endl;
+        }
+    }
+
+    return 0;
 }
