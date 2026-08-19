@@ -1,4 +1,4 @@
-// Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/WAITTIME
+// CODECHEF Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/WAITTIME
 
 // Time Complexity: O(T)
 // Space Complexity: O(1)
