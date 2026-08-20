@@ -1,21 +1,28 @@
-// Codechef Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/WATERREQ
+// Problem Link: https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/WATERREQ
+
+// Time Complexity: O(T)
+// Space Complexity: O(1)
 
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// t = number of test cases
-	int t;
-	cin >> t;
 
-	while (t--) {
-	    // n = number of liters required
-	    int n;
-	    cin >> n;
+    // T = number of test cases
+    int T;
+    cin >> T;
 
-	    // Total water required
-	    cout << n * 2 << endl;
-	}
+    // Process each test case
+    while (T--) {
 
-	return 0;
+        // N = number of people
+        int N;
+        cin >> N;
+
+        // Each person requires 2 litres of water
+        // Calculate the total water required
+        cout << N * 2 << endl;
+    }
+
+    return 0;
 }
