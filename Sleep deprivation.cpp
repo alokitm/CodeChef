@@ -11,7 +11,6 @@ int main() {
     // T = number of test cases
     int T;
     cin >> T;
-
     // Process each test case
     while (T--) {
 
